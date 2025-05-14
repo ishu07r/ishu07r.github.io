@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mera Professional Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, nav, footer {
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #f1c40f;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    label, input, textarea {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer p {
+      margin: 10px 0;
+    }
+    .social a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mera Blog</h1>
+    <p>Soch, Shabd, aur Safar ✍️</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home">
+      <h2>📝 Pehla Post</h2>
+      <p>Namaste! Yeh mera pehla blog post hai. Aasha hai aapko pasand aaye.</p>
+    </section>
+
+    <section>
+      <h2>🌟 Dusra Post</h2>
+      <p>Yeh dusra post hai jahan main naye vichar share kar raha hoon.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Mera naam Ishu hai. Main ek blogger hoon jo "Tach Talks" ke zariye technology aur life ke vichar share karta hoon.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Aap mujhse neeche diye gaye form ya email ke zariye sampark kar sakte hain.</p>
+      <form>
+        <label for="name">Naam:</label>
+        <input type="text" id="name" name="name" placeholder="Aapka naam" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Aapka sandesh"></textarea>
+
+        <button type="submit">Bhejien</button>
+      </form>
+      <p>Email: <a href="mailto:ishu07r@gmail.com">ishu07r@gmail.com</a></p>
+      <p class="social">
+        Follow me: 
+        <a href="https://www.instagram.com/tachtalks" target="_blank">Instagram</a> | 
+        <a href="https://www.twitter.com/tachtalks" target="_blank">Twitter</a>
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Mera Blog. Sabhi adhikar surakshit hain.</p>
+  </footer>
+</body>
+</html>
